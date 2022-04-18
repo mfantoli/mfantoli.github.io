@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script type = "text/javascript" src="randomBinomial.js"></script> 
 <body>
+<h1>Tu pioches 10 fois avec remise dans un sac contenant 5 balles (blanches ou noires)</h1>
+<h2>Chaque click te donne le nombre de blanches obtenues</h2>
 
-<h1>My First Heading</h1>
+<button onclick="getElementById('myNumber').innerHTML=nextBinomial (0.4, 10)">Nombre de blanches</button>
 
-<p>My first paragraph.</p>
+
+<p >Tu as pioché</p>
+
+<p id="myNumber"></p>
+
+<p >blanches</p>
+
 
 </body>
 </html>
+
